@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { @apply bg-devotional min-h-screen text-gray-800; }
+
+.btn-primary { @apply bg-ayyappa-orange text-white font-semibold px-4 py-2 rounded-xl shadow hover:bg-orange-600 transition; }
+.btn-gold { @apply bg-ayyappa-gold text-black font-semibold px-4 py-2 rounded-xl shadow hover:brightness-110 transition; }
+.card { @apply bg-white/80 backdrop-blur-md rounded-2xl shadow-xl border border-yellow-200; }
